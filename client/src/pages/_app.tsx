@@ -15,6 +15,7 @@ function App({ Component, pageProps }: AppProps) {
           name="description"
           content="A simple project starter to work with Typescript, React, NextJS and Styled Components"
         />
+        <link rel="manifest" href="/manifest.json" />
       </Head>
       <GlobalStyles />
       <Component {...pageProps} />
